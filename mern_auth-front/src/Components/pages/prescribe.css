@@ -1,0 +1,321 @@
+#prescribe{
+    padding-top: 30px;
+}
+.overlay-body{
+	background-color: white;
+	margin: 2px 2px;
+	border: 2px solid #3c7dcf;
+	border-radius: 0;
+	box-shadow: none;
+	text-align: center !important;
+	}
+	
+	.title h6{
+		text-align: center;
+		font-size: 20px;
+		background-color:#6598d9;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: white;
+	}
+
+
+	.overlay-body label{
+		font-weight: bold;
+	}
+	
+	.tableMainDiv{
+		margin-top: 40px;
+	}
+	
+
+	.tableMainDiv textarea {
+		resize: none;
+	}
+
+	
+.tableMainDiv .btn-danger{
+    visibility: hidden;
+}
+
+.disp{
+    display: none;
+}
+
+
+.overlayfooter .hello{
+		font-size: 20px;
+		background-color:#6598d9;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 50px;
+		color: white;
+		height: 45px;;
+}
+
+
+.overlayfooter .two{
+	position: fixed;
+    	bottom: 5px;
+	right: 0;
+	padding: 10px 10px;
+    
+}
+
+.overlayfooter  button{
+	margin: 0px 20px;
+}
+
+#h3divider{
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #6598d9;
+}
+#h3divider:before, #h3divider:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+#h3divider:before {
+  margin-right: 10px
+}
+#h3divider:after {
+  margin-left: 10px
+}
+
+.tableMainDiv table, td {
+    border: 0px solid black;
+    font-size: 13px;
+    text-align: center;
+  }
+
+.tableMainDiv th{
+    border: 0px solid black;
+    font-size: 14px;
+    text-align: center;
+  }
+  .tableMainDiv tr {
+    border-bottom: 1pt solid grey !important;
+  }
+
+  .ui-state-hover {
+    background:lightyellow;   
+}
+.ui-state-active {
+    background:lightgray   
+}
+.tableMainDiv  td, .tableMainDiv  span, .tableMainDiv  textarea{
+    height: 40px;
+}
+
+span textarea{
+    text-align: center;
+    padding: 10px 0;
+    resize: none;
+    vertical-align: middle;
+}
+
+#R1:hover .btn-danger,#R2:hover .btn-danger,#R3:hover .btn-danger,#R4:hover .btn-danger,#R5:hover .btn-danger,#R6:hover .btn-danger,#R7:hover .btn-danger,#R8:hover .btn-danger,#R9:hover .btn-danger,#R10:hover .btn-danger,#R11:hover .btn-danger,#R12:hover .btn-danger,#R13:hover .btn-danger,#R14:hover .btn-danger,#R15:hover .btn-danger,#R16:hover .btn-danger,#R17:hover .btn-danger,#R18:hover .btn-danger,#R19:hover .btn-danger,#R20:hover .btn-danger,#R21:hover .btn-danger,#R22:hover .btn-danger,#R23:hover .btn-danger,#R24:hover .btn-danger,#R25:hover .btn-danger{
+    visibility: visible;
+}
+
+.inputWithButton {
+  position: relative;
+  min-height: 50px;
+  width : 250px;
+  border: 0px solid grey;
+  left: 39%;
+}
+.inputWithButton:hover{
+    border: 1px solid grey;   
+}
+
+
+.signatureCanvas {
+    width: 100%;
+    min-height: 50px;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.inputWithButton i{
+  position: absolute;
+  right: 0;
+  top : 1px;
+}
+
+
+.patientdetails  input, .tableMainDiv textarea {
+    border:0px !important;
+    color: black !important;
+ 
+}
+
+.patientdetails input {border:0 !important;
+    outline:0 !important;
+    box-shadow: none !important;
+}
+.patientdetails input:focus {outline:1!important;}
+
+.addnew{
+    margin-top: 20px !important;
+}
+
+.doctor-singnature{
+	margin-top: 100px;
+	
+}
+
+section.background-blue {
+    overflow: hidden;
+    margin: 50px 0 0 0;
+    padding: 80px 0;
+    color: black;
+    font-size:1vw;
+    background-color: #ccf2f4;
+}
+
+
+section.background-none {
+    overflow: hidden;
+    margin: 50px 0 0 0;
+    padding: 80px 0;
+    font-size:1vw;
+    color: white;
+}
+
+
+
+mark{
+	justify-content: jutify;
+	font-size: 1rem;
+  line-height: 2em;
+  margin: 1.5rem;
+}
+
+.spinner {
+    animation: spin infinite 5s linear;
+
+    /*You can increase or decrease the timer (5s) to 
+     increase or decrease the speed of the spinner*/
+  }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#recordbtn{
+	background-color: #17a2b8;
+	color: #f8f9fa;
+}
+
+#recordbtn:hover{
+	background-color: #f8f9fa;
+	color: #17a2b8;
+}
+
+#processbtn{
+	background-color: #dc3545;
+	color: #f8f9fa;
+}
+
+#processbtn:hover{
+	background-color: #f8f9fa;
+	color: #dc3545;
+}
+
+#previewbtn{
+	background-color: #4CAF50;
+	color: #f8f9fa;
+	margin-bottom: 30px;
+}
+
+#previewbtn:hover{
+	background-color: #f8f9fa;
+	color: #4CAF50;
+}
+
+
+/*----------------desktop and laptop---------------*/
+@media (min-width: 769px){
+	#recordbtn{
+		font-size: 22px;	
+	}
+	#processbtn{
+		font-size: 21px;	
+	}
+	#previewbtn{
+		font-size: 19px;	
+	}
+	#mark-id-ann{
+		margin: 2em 0.41em 1em;
+	}
+	#mark-id-text{
+		margin: 0.51em 0.31em;
+	}
+	#spanann{
+		margin-left: 0.5em;
+	}
+	#textarea-ID{
+		font-size: 20px;
+	}
+}
+/*----------------tablets and ipad---------------*/
+@media (min-width: 601px) and (max-width: 768px){
+	#recordbtn{
+		font-size: 20px;	
+	}
+	#processbtn{
+		font-size: 19px;
+	}
+	#previewbtn{
+		font-size: 17px;
+	}
+	#mark-id-ann{
+		margin: 2em 0.31em 1em;
+	}
+	#mark-id-text{
+		margin: 0.51em 0.21em;
+	}
+	#spanann{
+		margin-left: 0.4em;
+	}
+	#textarea-ID{
+		font-size: 19px;
+	}
+}
+
+/*---------------mobile phones----------------*/
+@media (min-width: 0px) and (max-width: 600px){
+	#recordbtn{
+		font-size: 18px;	
+	}
+	#processbtn{
+		font-size: 17px;	
+	}
+	#previewbtn{
+		font-size: 16px;	
+	}
+	#mark-id-ann{
+		margin: 2em 0.21em 1em;
+	}
+	#mark-id-text{
+		margin: 0.51em 0.11em;
+	}
+	#spanann{
+		margin-left: 0.3em;
+	}
+	#textarea-ID{
+		font-size: 17px;
+	}
+}
