@@ -28,15 +28,22 @@ The model output is then sent back to the application in JSON format. The applic
 * HTML,&nbsp;CSS,&nbsp;BOOTSTRAP
 
 ### Setting up the project 
-* Start by installing the dependencies for both Express and React 
+* Start by cloning the project with the command:
 ```
-$ cd mern_auth-front/
+$ https://github.com/sid113/AI-Based-Voice-Prescription/tree/master
+```
+
+* Installing the dependencies for both Express and React 
+```
+$ cd cd mern_auth-front/
 $ npm install
 $ cd login_backend/
 $ npm install
 
 ```
 Let's first check to see what our React frontend looks like.
+
+
 
 * To run the React server use the command in client directory:
 
@@ -55,6 +62,12 @@ $ nodemon index.js
 
 ## Demonstration Video
 <img src="https://github.com/disha2000/AI-Based-Voice-Prescription-/blob/master/assets/demo%20gif.gif" width="800" height="500" />
+
+* Now let's run our NER model by running following command.
+```
+$ cd voice-prescription-fastapi-main/
+$ python -m uvicorn main:app --reload
+```
 
 ## Authors
 
