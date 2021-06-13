@@ -59,15 +59,16 @@ We are not running our backend yet! Let's do that now.
 $ nodemon index.js 
 ```
 * We have two servers running, one for the React frontend and one for the Express backend.
-
-## Demonstration Video
-<img src="https://github.com/disha2000/AI-Based-Voice-Prescription-/blob/master/assets/demo%20gif.gif" width="800" height="500" />
-
 * Now let's run our NER model by running following command.
 ```
 $ cd voice-prescription-fastapi-main/
 $ python -m uvicorn main:app --reload
 ```
+
+## Demonstration Video
+<img src="https://github.com/disha2000/AI-Based-Voice-Prescription-/blob/master/assets/demo%20gif.gif" width="800" height="500" />
+
+
 
 ## Authors
 
