@@ -59,7 +59,7 @@ We are not running our backend yet! Let's do that now.
 $ nodemon index.js 
 ```
 * We have two servers running, one for the React frontend and one for the Express backend.
-* Now let's run our NER model by running following command in thrid terminal.
+Now let's run our NER model by running following command in thrid terminal.
 ```
 $ cd voice-prescription-fastapi-main/
 $ python -m uvicorn main:app --reload
