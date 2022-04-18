@@ -54,13 +54,32 @@ $ npm start
 * Now if you go to http://localhost:3000 you will able to see homepage of prescription.ai
 
 We are not running our backend yet! Let's do that now.
+
+
+Before running Backend server make sure that you add a .env file. In this file, add the following variables.
+
+```
+MONGODB_CONNECTION_STRING = <Mongodb conenction Uri>
+SECRET=yWbS38U8t9FMQn6uPV
+EMAIL_ID= <email id>
+PASSWORD=<password>
+```
+
+Note:
+
+EMAIL_ID and PASSWORD are optional fields.
+
+To create a MongoDB connection you can refer to this video: 
+
+https://www.youtube.com/watch?v=St0_qSe7RCE&list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU&index=2&ab_channel=Devistry
+
 * In another terminal session run the command 
 ```
 $ nodemon index.js 
 ```
 * We have two servers running, one for the React frontend and one for the Express backend.
 
-Now let's run our NER model by running following command in thrid terminal.
+Now let's run our NER model by running following command in third terminal.
 ```
 $ cd voice-prescription-fastapi-main/
 $ python -m uvicorn main:app --reload
