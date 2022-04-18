@@ -56,7 +56,7 @@ $ npm start
 We are not running our backend yet! Let's do that now.
 
 
-Before Running Backend server make sure that you add a .env file. In this file, add the following variables.
+Before running Backend server make sure that you add a .env file. In this file, add the following variables.
 
 ```
 MONGODB_CONNECTION_STRING = <Mongodb conenction Uri>
@@ -66,9 +66,11 @@ PASSWORD=<password>
 ```
 
 Note:
+
 EMAIL_ID and PASSWORD are optional fields.
 
 To create a MongoDB connection you can refer to this video: 
+
 https://www.youtube.com/watch?v=St0_qSe7RCE&list=PLJM1tXwlGdaf57oUx0rIqSW668Rpo_7oU&index=2&ab_channel=Devistry
 
 * In another terminal session run the command 
