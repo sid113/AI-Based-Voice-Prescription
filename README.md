@@ -32,11 +32,9 @@ The model output is then sent back to the application in JSON format. The applic
   ```
   $ https://github.com/sid113/AI-Based-Voice-Prescription/tree/master
   ```
-### Steps
-#### Frontend Setup 
-1. Open the  mern_auth-front folder in your visual studio <br>
+* Frontend Setup 
+1. Open the  mern_auth-front folder in your visual studio 
 2. Go to terminal and Install dependencies for this project.
-
     ```
     $ npm install
     ```
@@ -45,7 +43,7 @@ The model output is then sent back to the application in JSON format. The applic
     $ npm start
     ```
 4. Now if you go to http://localhost:3000 you will be able to see the homepage of prescription.ai.
-#### Backend Setup
+* Backend Setup
 1. Open the login_backend folder in your separate visual studio.
 2. Go to terminal and install dependencies for a backend project.
     ```
@@ -65,7 +63,7 @@ The model output is then sent back to the application in JSON format. The applic
     ```
     $ nodemon index.js 
     ```
-#### Python Model setup
+* Python Model setup
 1. Open the voice-prescription-fastapi-main folder in visual studio or any editor and run the following commands.
     ```
     $ cd voice-prescription-fastapi-main/
