@@ -32,7 +32,7 @@ The model output is then sent back to the application in JSON format. The applic
   ```
   $ https://github.com/sid113/AI-Based-Voice-Prescription/tree/master
   ```
-### Steps:
+### Steps
 #### Frontend Setup 
 1. Open the  mern_auth-front folder in your visual studio <br>
 2. Go to terminal and Install dependencies for this project.
