@@ -29,30 +29,28 @@ The model output is then sent back to the application in JSON format. The applic
 
 ### Setting up the project 
 * Start by cloning the project with the command:
-```
-$ https://github.com/sid113/AI-Based-Voice-Prescription/tree/master
-```
-
+  ```
+  $ https://github.com/sid113/AI-Based-Voice-Prescription/tree/master
+  ```
 ### Steps:
 #### Frontend Setup 
 1. Open the  mern_auth-front folder in your visual studio <br>
 2. Go to terminal and Install dependencies for this project.
 
-```
-$ npm install
-```
+    ```
+    $ npm install
+    ```
 3. To run this React project type the following command into the terminal.
-```
-$ npm start
-```
+    ```
+    $ npm start
+    ```
 4. Now if you go to http://localhost:3000 you will be able to see the homepage of prescription.ai.
-
 #### Backend Setup
 1. Open the login_backend folder in your separate visual studio.
 2. Go to terminal and install dependencies for a backend project.
-  ```
-  $ npm install
-  ```
+    ```
+    $ npm install
+    ```
 3. Before running the Backend server make sure that you add a .env file. In this file, add the following variables.
     ```
     MONGODB_CONNECTION_STRING = <Mongodb conenction Uri>
@@ -67,18 +65,14 @@ $ npm start
     ```
     $ nodemon index.js 
     ```
-
 #### Python Model setup
 1. Open the voice-prescription-fastapi-main folder in visual studio or any editor and run the following commands.
     ```
     $ cd voice-prescription-fastapi-main/
     $ python -m uvicorn main:app --reload
     ```
-
 ## Demonstration Video
 <img src="https://github.com/disha2000/AI-Based-Voice-Prescription-/blob/master/assets/demo%20gif.gif" width="800" height="500" />
-
-
 
 ## Authors
 
