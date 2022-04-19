@@ -1,9 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import a from "../../assets/Images/anonymous.png"
-import siddhesh from "../../assets/Images/siddhesh.jpg"
-import disha from "../../assets/Images/disha.jpeg"
-import chavan from "../../assets/Images/du.jpeg"
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 export default function Teampage() {
@@ -21,7 +18,7 @@ export default function Teampage() {
 
 
                             <div class="view overlay">
-                                <img class="card-img-top" src={siddhesh} alt="Card image cap" />
+                                <img class="card-img-top" src={a} alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
@@ -52,7 +49,7 @@ export default function Teampage() {
 
 
                             <div class="view overlay">
-                                <img class="card-img-top" src={disha} alt="Card image cap" />
+                                <img class="card-img-top" src={a} alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
@@ -83,7 +80,7 @@ export default function Teampage() {
 
 
                             <div class="view overlay">
-                                <img class="card-img-top" src={chavan} alt="Card image cap" />
+                                <img class="card-img-top" src={a} alt="Card image cap" />
                                 <a href="#!">
                                     <div class="mask rgba-white-slight"></div>
                                 </a>
