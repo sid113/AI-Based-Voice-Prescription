@@ -67,6 +67,7 @@ The model output is then sent back to the application in JSON format. The applic
 1. Open the voice-prescription-fastapi-main folder in visual studio or any editor and run the following commands.
     ```
     $ cd voice-prescription-fastapi-main/
+    $ pip install requirements.txt 
     $ python -m uvicorn main:app --reload
     ```
 ## Demonstration Video
