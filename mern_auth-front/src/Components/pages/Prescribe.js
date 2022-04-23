@@ -143,7 +143,7 @@ export default function Prescribe() {
         }
         const json = JSON.stringify(obj);
         console.log(json);
-        let res = await axios.post('https://voiceprescriptionmodel.herokuapp.com/pdf', json)
+        let res = await axios.post('http://127.0.0.1:8000/pdf', json)
 
         let result1 = res;
         const data = result1.data
@@ -209,7 +209,7 @@ export default function Prescribe() {
             const json = JSON.stringify(obj);
             console.log(json);
 
-            let res = await axios.post('https://voiceprescriptionmodel.herokuapp.com/data', json)
+            let res = await axios.post('http://127.0.0.1:8000/data', json)
             let result1 = res.data;
             result1 = JSON.stringify(eval("(" + result1 + ")"));
             var obj = JSON.parse(result1)
@@ -580,3 +580,5 @@ export default function Prescribe() {
         </>
     );
 }
+
+
