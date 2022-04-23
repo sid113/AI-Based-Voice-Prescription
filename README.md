@@ -82,6 +82,6 @@ Contributors names and contact info
 
 ## References
 [1] PyTorch-ELMo-BiLSTM-CRF implementation: https://github.com/yongyuwen/PyTorch-Elmo-BiLSTMCRF<br>
-[2] NER and Relation Extraction from EHR: github.com/smitkiri/ehr-relation-extraction
+[2] NER and Relation Extraction from EHR: https://github.com/smitkiri/ehr-relation-extraction
 
 
