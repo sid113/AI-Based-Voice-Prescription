@@ -81,7 +81,7 @@ Contributors names and contact info
 * Disha Doshi:&nbsp;dishadoshi555@gmail.com
 
 ## References
-[1] PyTorch-ELMo-BiLSTM-CRF implementation: https://github.com/yongyuwen/PyTorch-Elmo-BiLSTMCRF
+[1] PyTorch-ELMo-BiLSTM-CRF implementation: https://github.com/yongyuwen/PyTorch-Elmo-BiLSTMCRF<br>
 [2] NER and Relation Extraction from EHR: github.com/smitkiri/ehr-relation-extraction
 
 
