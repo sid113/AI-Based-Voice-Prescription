@@ -340,7 +340,7 @@ export default function Prescribe() {
     const Annotationsection = () => {
         return (
             <>
-                <div data-aos="fade-up">
+                <div data-aos="fade-up" className="annotation">
                     <section className={isBackgroundBlue ? 'background-blue' : 'background-none'}>
                         <div className="container" id="borderdiv" style={isBorder ? borderstyle : bordernone} data-aos="zoom-out-up">
                             <div className="content" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(result) }}></div>
@@ -361,7 +361,7 @@ export default function Prescribe() {
 
                             <form class="form-inline patientdetails">
 				<label for="inlineFormEmail" class="m-2">Doctor Name:</label>
-                                <input type="text" class="form-control m-2" id="inlineFormPassword" value={userData.user.displayname} style={{color: "red"}} />
+                                <input type="text" class="form-control m-2" id="inlineFormPassword" value={userData.user.displayname && "loading"} style={{color: "red"}} />
 				<label for="inlineFormPassword" class="m-2">patient Name:</label>
                                 <input type="text" class="form-control m-2" id="inlineFormPassword" placeholder="patient Name" onChange={(e) => setName(e.target.value)} />
                                 <label for="inlineFormEmail" class="m-2">Patient Email:</label>
@@ -553,8 +553,9 @@ export default function Prescribe() {
     }
 
     return (
-        <>
-            <section id="prescribe">
+        <> 
+            {
+                userData.user ? (<div className="prescribe"> <section >
                 <div className="container">
                     <form>
                         {SelectFileFunc()}
@@ -573,7 +574,9 @@ export default function Prescribe() {
                     </form>
                 </div>
             </section>
-            {Annotationsection()}
+            {Annotationsection()}</div>):<div className="prescribe"> Loading ... </div>
+            }
+           
         </>
     );
 }
