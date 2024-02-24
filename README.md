@@ -77,6 +77,7 @@ The model output is then sent back to the application in JSON format. The applic
 
 Contributors names and contact info
 
+* Siddhesh Pawar:&nbsp;siddeshpawar03@gmail.com
 * Disha Doshi:&nbsp;dishadoshi555@gmail.com
 
 ## References
